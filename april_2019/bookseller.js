@@ -29,25 +29,35 @@ or
 If L or M are empty return string is "" (Clojure should return an empty array instead).
 */
 
+b = ["ABAR 200", "CDXE 500", "BKWR 250", "BTSQ 890", "DRTY 600"]
+c = ["A", "B"]
+
  stockList = (listOfArt, listOfCat) => {
   // ... 
-  array=[]
+//How to compare and extract the first letter 
+//if (c[0] == b[0].charAt(0)){return console.log(c[0]+"+1")}
 
-  for(i=0;i<listOfCat.length;i++){
-  	array.push(listOfCat[i])
+//How to parse the integer from a string: parseInt
 
-  }
-  console.log(array)
+const map1 = c.map(x => let x = 0)
+
+console.log(map1)
+
 
 };
 
 
-stockList([1,2,3], ["A", "B"])
+stockList(b, c)
 
 
 
-
-
+//Pseudo Code.
+//
+//1. Take each C array element and create a value for each  
+//2. Compare element to each first letter in B array
+//3. If they match, extract stock number, starting from 5th position
+//4. Add the stock number to the previously created values
+//5. Once complete, return values and associated stock numbers, return a string (in Haskell/Clojure)
 
 
 

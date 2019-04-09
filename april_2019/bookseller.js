@@ -34,15 +34,35 @@ c = ["A", "B"]
 
  stockList = (listOfArt, listOfCat) => {
   // ... 
+//Might need these later: 
 //How to compare and extract the first letter 
 //if (c[0] == b[0].charAt(0)){return console.log(c[0]+"+1")}
-
 //How to parse the integer from a string: parseInt
 
-const map1 = c.map(x => let x = 0)
 
-console.log(map1)
 
+
+let myVariables = []
+//Creating the variables 
+for(let i=0;i<b.length;i++){
+	
+	if (c[0] == b[i].charAt(0))
+		{/*create variable counter */
+		  c[0] += 1 
+		  console.log(c[0])
+
+									}
+	else if(c[1] == b[i].charAt(0))
+		{/*create variable counter */
+			c[1] += 1 
+			console.log(c[1])
+									}
+	
+	
+}
+
+console.log(myVariables[0])
+console.log(myVariables[1])
 
 };
 
@@ -53,8 +73,9 @@ stockList(b, c)
 
 //Pseudo Code.
 //
-//1. Take each C array element and create a value for each  
+//
 //2. Compare element to each first letter in B array
+//2a. Take each C array element and create a value for each  
 //3. If they match, extract stock number, starting from 5th position
 //4. Add the stock number to the previously created values
 //5. Once complete, return values and associated stock numbers, return a string (in Haskell/Clojure)

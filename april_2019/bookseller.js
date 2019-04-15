@@ -42,27 +42,30 @@ c = ["A", "B"]
 
 
 
-let myVariables = []
-//Creating the variables 
+let myCodes = {}
+//Creating the object with key:value pairs 
+
+for(let i=0;i<c.length;i++){
+	myCodes.push(c[i])
+	console.log(myCodes)
+
+
+}
+//Adding to the
+
 for(let i=0;i<b.length;i++){
 	
 	if (c[0] == b[i].charAt(0))
 		{/*create variable counter */
-		  c[0] += 1 
-		  console.log(c[0])
+		   console.log("test")
 
 									}
 	else if(c[1] == b[i].charAt(0))
 		{/*create variable counter */
-			c[1] += 1 
-			console.log(c[1])
-									}
-	
-	
-}
 
-console.log(myVariables[0])
-console.log(myVariables[1])
+				console.log("test")					}
+	}
+
 
 };
 

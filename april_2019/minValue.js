@@ -16,6 +16,7 @@ function minValue(values){
 // the minimum value into the minValue array. No duplicates. 
 	
 	minValueArry=[]
+	
 	tempArray=values.sort()
 
 	

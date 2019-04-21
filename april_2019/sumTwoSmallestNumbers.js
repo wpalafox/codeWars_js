@@ -12,7 +12,7 @@ function sumTwoSmallestNumbers(numbers) {
      let tempArry = numbers;
      let addedMinValue = 0;
 //This loops takes the 2 smallest values out of the temporary array and adds tem
-     for(i=0;i<2;i++){ 
+     while(tempArry.length > 2){ 
         addedMinValue += parseInt(tempArry.splice(tempArry.indexOf(Math.min(...tempArry)),1))
       }
 

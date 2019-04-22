@@ -31,3 +31,11 @@ function cockroachSpeed(s) {
   
   return Math.floor((s*centimetersInKilometers)/secsInHour);
 }
+
+
+
+
+
+
+
+

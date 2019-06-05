@@ -28,3 +28,6 @@ const isTriangle = (a,b,c) => {
 
 
 console.log(isTriangle(2,2,2))
+
+
+//https://www.codewars.com/kata/is-this-a-triangle/train/javascript

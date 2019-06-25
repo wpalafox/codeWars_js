@@ -41,7 +41,12 @@ function tickets(peopleInLine){
   			console.log("fifty count -1")
   			twentyFive -= 1
   			console.log("twentyFive count -1")
-  		}else{
+  		}else if(twentyFive > 2){
+  			vasyaSays = "YES"
+  			twentyFive -= 3
+
+  		}
+		else{
   			vasyaSays = "NO"
   			return vasyaSays
   		}

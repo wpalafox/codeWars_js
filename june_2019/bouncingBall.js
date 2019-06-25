@@ -7,7 +7,7 @@ const bouncingBall = (h, bounce, window) => {
   	console.log("h is less than 0")
   	return -1 
   }
-  else if(0<bounce  == false){
+  else if((0<bounce)  == true && (bounce < 1) == true){
 	console.log("bounce is less than 0 or more than 1")
 	return -1
   }else if (window > h){
@@ -15,8 +15,7 @@ const bouncingBall = (h, bounce, window) => {
   	return -1 
   }
 
-
- }
+}
 
 
  console.log(bouncingBall(3,.5,1.5))

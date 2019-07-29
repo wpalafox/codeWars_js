@@ -13,7 +13,7 @@ var squareDigits = (n) => {
 
 	const joinMap = map1.join("")
 
-	return joinMap
+	return parseInt(joinMap)
 }
 
 
